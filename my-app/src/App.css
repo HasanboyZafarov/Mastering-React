@@ -1,6 +1,48 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+* {
+   transition: all 0.3s ease;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+   width: 300px;
+   padding: 20px;
+   background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+
+   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+}
+
+.card-title {
+   font-size: 32px;
+   font-family: sans-serif;
+}
+
+.card-desc {
+   font-size: 16px;
+}
+
+.card-btn {
+   padding: 15px 30px;
+   background: #fff;
+   border: 0;
+   border-radius: 30px;
+   cursor: pointer;
+   color: #545454;
+   font-size: 20px;
+   border: 1px solid #545454;
+}
+
+.card-btn:hover {
+   background: #545454;
+   color: #fff;
 }
